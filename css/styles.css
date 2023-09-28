@@ -932,7 +932,9 @@ border-radius: 2px;
   border: 1px solid var(--CORNFLOWER, #E7E9FC);
  
 }
+.subscribe {
 
+}
 .subscribe-caption {
   color: var(--white-text-color);
     /* Body Medium */
@@ -952,7 +954,7 @@ border-radius: 2px;
 
 .subscribe-label {}
 
-.subscribe-email {
+.subscribe-email-footer {
   color: var(--white-text-color);
     font-family: Roboto;
     font-size: 12px;
