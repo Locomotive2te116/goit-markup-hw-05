@@ -936,19 +936,20 @@ fill: transparent;
   fill:var(--white-text-color);
 }
 
-.modal-policy {
+/*.modal-policy {
   font-size: 12px;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
+  line-height: 14px; 
   letter-spacing: 0.48px;
-}
+}*/
 .modal-agreement-link {
-  color: var(--IRIS, #4D5AE5);
-  font-size: 12px;
+   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.48px;
   text-decoration-line: underline;
+  color:var(--accent-text-color);
+
 }
 .btn-submit {
   color: var(--white-text-color);
