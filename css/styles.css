@@ -894,6 +894,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
   letter-spacing: 0.48px;
   color: var(--LIGHT-SLATE);
+  line-height: 1.17;
 
 }
 .modal-agreement-input {
@@ -954,6 +955,11 @@ fill: transparent;
   height: 56px;
   min-width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer
 }
 .btn-submit:hover,
 .btn-submit:focus {
