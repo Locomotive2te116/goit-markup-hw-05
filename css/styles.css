@@ -894,14 +894,15 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: var(--accent-text-color);
 }
 .modal-privacy {
-
+display: flex;
+align-items: center;
   margin-bottom: 24px;
+
  
 }
 .modal-agreement {
   display: block;
   margin-bottom: 24px;
-  width: 338px;
   flex-shrink: 0;
   font-size: 12px;
   font-weight: 400;
@@ -933,6 +934,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 align-items: center;
 justify-content: center;
 fill: transparent;
+margin-right: 8px;
 }
 .modal-checkbox:hover,
 .modal-checkbox:focus {
@@ -1046,7 +1048,7 @@ cursor: pointer;
     border-radius: 4px;
     background: var(--accent-text-color);
     color: var(--white-text-color);
-    margin-left: 24px;
+    
 min-width: 165px;
 height: 40px;
 font-family: Roboto, sans-serif;
