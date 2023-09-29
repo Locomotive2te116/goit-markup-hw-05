@@ -1012,7 +1012,7 @@ cursor: pointer;
 
 .sucscribe-form {
   display: flex;
-    gap: 24px;
+   /* gap: 24px;*/
    
   
 }
@@ -1061,10 +1061,11 @@ font-family: Roboto, sans-serif;
 cursor: pointer;
 border: none;
 /*margin-right: 159px;*/
+margin-left: 24px;
 
 }
 
 .subscribe-icon {
   fill: var(--white-text-color);
-  
+  margin-left: 16px;
 }
