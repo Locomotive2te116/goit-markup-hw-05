@@ -936,7 +936,8 @@ justify-content: center;
   }*/
 .modal-checkbox-icon {
    opacity: 0;
-   fill:#e5e5e5;
+   /*fill:#e5e5e5;*/
+  fill: var(--accent-text-color);
    
 }
 .modal-agreement-input:checked+.modal-agreement>.modal-checkbox>.modal-checkbox-icon{
@@ -1024,7 +1025,7 @@ cursor: pointer;
     border-radius: 4px;
       border: 1px solid var(--white-text-color);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-     /* width: 264px;*/
+      width: 264px;
       height: 40px;
       background-color: transparent;
       line-height: 1.5;
