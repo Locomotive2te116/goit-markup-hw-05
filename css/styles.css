@@ -652,6 +652,7 @@ fill: currentColor;
 .footer-container {
   display: flex;
   align-items: baseline;
+  /*justify-content: center;*/
 
 }
 .footer-list-item {
@@ -817,7 +818,7 @@ margin-bottom: 16px;
 }
 .modal-lable {
 display: block;
-  color: var(--LIGHT-SLATE);
+color: var(--LIGHT-SLATE);
 font-size: 12px;
 font-weight: 400;
 line-height: 14px; /* 116.667% */
@@ -856,7 +857,12 @@ line-height: 1.17;
   stroke: rgba(46, 47, 66, 0.4);
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(--accent-text-color);
+ /* fill: var(--accent-text-color);*/
+}
+
+
+.modal-icon:hover {
+  stroke: rgba(77, 90, 229, 1);
 }
 .modal-input:focus-within + .modal-icon {
     stroke: rgba(77, 90, 229, 1);
@@ -883,7 +889,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: var(--accent-text-color);
 }
 .modal-privacy {
+
   margin-bottom: 24px;
+ 
 }
 .modal-agreement {
   display: block;
@@ -904,6 +912,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
+    stroke: #f4f4fd;
  
 }
 
@@ -919,19 +928,18 @@ border-radius: 2px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 align-items: center;
 justify-content: center;
-fill: transparent;
+/*fill: transparent;*/
 }
-.modal-checkbox:hover,
+/*.modal-checkbox:hover,
 .modal-checkbox:focus {
   background-color: var(--hover-text-color);
-  }
+  }*/
 .modal-checkbox-icon {
    opacity: 0;
    fill:#e5e5e5;
-   width: 16px;
-   height: 16px;
+   
 }
-.modal-agreement-input:checked + .modal-checkbox> .modal-checkbox-icon {
+.modal-agreement-input:checked+.modal-agreement>.modal-checkbox>.modal-checkbox-icon{
   opacity: 1;
   fill:var(--white-text-color);
 }
@@ -968,7 +976,9 @@ fill: transparent;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-cursor: pointer
+cursor: pointer;
+
+
 }
 .btn-submit:hover,
 .btn-submit:focus {
@@ -995,12 +1005,15 @@ cursor: pointer
 .sucscribe-form {
   display: flex;
     gap: 24px;
+   
+  
 }
 
-.subscribe-label {}
+.subscribe-label {
+  }
 
 .subscribe-email-footer {
-  color: var(--white-text-color);
+    color: var(--white-text-color);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -1011,7 +1024,7 @@ cursor: pointer
     border-radius: 4px;
       border: 1px solid var(--white-text-color);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-      width: 264px;
+     /* width: 264px;*/
       height: 40px;
       background-color: transparent;
       line-height: 1.5;
@@ -1039,7 +1052,7 @@ font-family: Roboto, sans-serif;
   letter-spacing: 0.64px;
 cursor: pointer;
 border: none;
-
+/*margin-right: 159px;*/
 
 }
 
