@@ -930,16 +930,17 @@ align-items: center;
 justify-content: center;
 /*fill: transparent;*/
 }
-/*.modal-checkbox:hover,
+.modal-checkbox:hover,
 .modal-checkbox:focus {
-  background-color: var(--hover-text-color);
-  }*/
-.modal-checkbox-icon {
+  fill: #4D5AE5;
+  }
+
+  .modal-checkbox-icon {
    opacity: 0;
-   /*fill:#e5e5e5;*/
-  fill: var(--accent-text-color);
-   
+   fill:#e5e5e5;
+  
 }
+
 .modal-agreement-input:checked+.modal-agreement>.modal-checkbox>.modal-checkbox-icon{
   opacity: 1;
   fill:var(--white-text-color);
